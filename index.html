@@ -2,51 +2,48 @@
 <html>
     <head>
         <title>민둘이의 웹페이지</title>
-        <style>
-            #grid {
-                display: grid;
-                grid-template-columns: 150px 1fr;
-            }
-            a {
-                color: black;
-                text-decoration:none;
-                padding: 2%;
-            }
-            h1 {
-                text-align: center;
-                padding: 2%;
-                margin: 0%;
-            }
-        </style>
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="utf-8">
     </head>
     <body>
         <h1><a href="index.html">민둘이의 웹페이지</a></h1>
+
+        <div id="navBar">
+            <a class="navMenu" href="index.html"><div><strong>홈페이지</strong></div></a>
+            <a class="navMenu" href="mindulbot.html"><div><strong>민둘봇</strong></div></a>
+        </div>
+
         <div id="grid">
             <div id="메뉴">
                 <ul>
                     <li>
-                        <div>
-                            <strong><a href="preface.html">개요</a></strong>
-                            <ol>
-                                <li>개요1</li>
-                                <li>개요2</li>
-                            </ol>
-                        </div>
+                        <strong><a href="index.html">시작하기</a></strong>
+                        <ol>
+                            <li>민둘봇 링크</li>
+                            <li>개요</li>
+                        </ol>
                     </li>
                     <li>
-                        <div>
-                            <strong><a href="mindulbot.html">민둘봇</a></strong>
-                            <ol>
-                                <li>민둘봇1</li>
-                                <li>민둘봇2</li>
-                            </ol>
-                        </div>
+                        <strong><a href="index.html">컨텐츠</a></strong>
+                        <ol>
+                            <li>민둘봇</li>
+                        </ol>
                     </li>
                 </ul>
             </div>
+
             <div id="본문">
                 <p>
-                    굵은 글씨를 누르면 해당 웹사이트로 이동합니다.
+                    <a href="https://discord.com/oauth2/authorize?client_id=751733763838443530&scope=bot"
+                    target="_blank" title="민둘봇 초대 링크" class="inviteLink">
+                    민둘봇 초대 링크
+                    </a>
+                </p>
+                <p>
+                    민둘봇에 대한 것이 궁금하다면?<br>
+                    앞으로 나올 컨텐츠가 기대된다면?<br>
+                    이곳에 잘 오셨습니다!<br>
+                    <img src="mindul.png" width="40%" height="40%">
                 </p>
             </div>
         </div>

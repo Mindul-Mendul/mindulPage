@@ -1,53 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
     <head>
         <title>민둘이의 웹페이지 - 민둘봇</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="utf-8">
         <style>
-            #grid {
-                display: grid;
-                grid-template-columns: 150px 1fr;
-            }
-            .inviteLink{
-                color: blue;
-            }
-            a {
-                color: black;
-                text-decoration:none;
-                padding: 2%;
-            }
-            h1 {
-                text-align: center;
-                padding: 2%;
-                margin: 0%;
-            }
-            p {
-                padding: 2%;
-            }
         </style>
     </head>
     <body>
         <h1><a href="index.html">민둘봇</a></h1>
 
+        <div id="navBar">
+            <a class="navMenu" href="index.html"><div><strong>홈페이지</strong></div></a>
+            <a class="navMenu" href="mindulbot.html"><div><strong>민둘봇</strong></div></a>
+        </div>
+
         <div id="grid">
             <div id="메뉴">
                 <ul>
                     <li>
-                        <div>
-                            <strong><a href="preface.html">개요</a></strong>
-                            <ol>
-                                <li>개요1</li>
-                                <li>개요2</li>
-                            </ol>
-                        </div>
+                        <strong><a href="mindulbot.html">공지사항</a></strong>
+                        <ol>
+                            <li>공지사항</li>
+                            <li>업데이트</li>
+                        </ol>
                     </li>
                     <li>
-                        <div>
-                            <strong><a href="mindulbot.html">민둘봇</a></strong>
-                            <ol>
-                                <li>민둘봇1</li>
-                                <li>민둘봇2</li>
-                            </ol>
-                        </div>
+                        <strong><a href="mindulbot.html">기능 설명</a></strong>
+                        <ol>
+                            <li>기본 기능</li>
+                            <li>노래 기능</li>
+                        </ol>
                     </li>
                 </ul>
             </div>
@@ -55,13 +38,9 @@
             <div id="본문">
                 <p>
                     민둘봇은 디스코드 봇이에요.<br>
-                    노래도 부르고 타로도 본답니다!
+                    노래도 부르고 타로도 본답니다!<br>
+                    <img src="mindul.png" width="40%" height="40%">
                 </p>
-
-                <a href="https://discord.com/oauth2/authorize?client_id=751733763838443530&scope=bot"
-                target="_blank" title="민둘봇" class="inviteLink">
-                    궁금하시다면 여기를 눌러 초대해보세요~!
-                </a>
             </div>
         </div>
     </body>
