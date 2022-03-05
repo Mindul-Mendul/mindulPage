@@ -10,7 +10,9 @@
 }
 .navMenu{
     text-align: center;
-    border: 3px solid rgb(200, 200, 200);
+}
+.menu{
+    margin-bottom:15px;
 }
 a {
     color: black;
@@ -27,6 +29,7 @@ p {
 }
 #메뉴 {
     background-color: rgb(220, 220, 220);
+    padding-top:5px;
 }
 #본문 {
     background-color:white;
