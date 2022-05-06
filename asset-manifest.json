@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mindulPage/static/css/main.e7720ab7.css",
+    "main.js": "/mindulPage/static/js/main.e97773f7.js",
+    "static/js/787.3e13d4a7.chunk.js": "/mindulPage/static/js/787.3e13d4a7.chunk.js",
+    "index.html": "/mindulPage/index.html",
+    "main.e7720ab7.css.map": "/mindulPage/static/css/main.e7720ab7.css.map",
+    "main.e97773f7.js.map": "/mindulPage/static/js/main.e97773f7.js.map",
+    "787.3e13d4a7.chunk.js.map": "/mindulPage/static/js/787.3e13d4a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7720ab7.css",
+    "static/js/main.e97773f7.js"
+  ]
+}
