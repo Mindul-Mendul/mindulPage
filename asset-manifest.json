@@ -1,15 +1,14 @@
 {
   "files": {
     "main.css": "/mindulPage/static/css/main.e7720ab7.css",
-    "main.js": "/mindulPage/static/js/main.e97773f7.js",
-    "static/js/787.3e13d4a7.chunk.js": "/mindulPage/static/js/787.3e13d4a7.chunk.js",
+    "main.js": "/mindulPage/static/js/main.33be7a2a.js",
+    "static/media/mindul.png": "/mindulPage/static/media/mindul.303bf68f9c135d434386.png",
     "index.html": "/mindulPage/index.html",
     "main.e7720ab7.css.map": "/mindulPage/static/css/main.e7720ab7.css.map",
-    "main.e97773f7.js.map": "/mindulPage/static/js/main.e97773f7.js.map",
-    "787.3e13d4a7.chunk.js.map": "/mindulPage/static/js/787.3e13d4a7.chunk.js.map"
+    "main.33be7a2a.js.map": "/mindulPage/static/js/main.33be7a2a.js.map"
   },
   "entrypoints": [
     "static/css/main.e7720ab7.css",
-    "static/js/main.e97773f7.js"
+    "static/js/main.33be7a2a.js"
   ]
 }
